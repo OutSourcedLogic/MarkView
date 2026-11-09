@@ -1,0 +1,8 @@
+<Project>
+  <!-- Build output (bin, obj) goes to %TEMP%\MarkView.Build instead of the source folder. -->
+  <PropertyGroup>
+    <MarkViewBuildRoot>$(TEMP)\MarkView.Build\$(MSBuildProjectName)\</MarkViewBuildRoot>
+    <BaseOutputPath>$(MarkViewBuildRoot)bin\</BaseOutputPath>
+    <BaseIntermediateOutputPath>$(MarkViewBuildRoot)obj\</BaseIntermediateOutputPath>
+  </PropertyGroup>
+</Project>

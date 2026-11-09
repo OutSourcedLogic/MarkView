@@ -1,0 +1,20 @@
+# Build output (normally redirected to %TEMP%\MarkView.Build by Directory.Build.props)
+bin/
+obj/
+publish/
+
+# Installers: published as GitHub Release assets, not committed
+dist/
+
+# Downloaded at build time by build-installer.ps1
+installer/redist/
+
+# Personal AI-assistant notes (kept in a separate private repo)
+CLAUDE.md
+CLAUDE.local.md
+.claude/
+
+# Visual Studio / editor state
+.vs/
+*.user
+*.suo
